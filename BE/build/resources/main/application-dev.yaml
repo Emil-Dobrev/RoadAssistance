@@ -1,0 +1,31 @@
+server:
+  port: 8080
+spring:
+  secret: 88deeacc8f37aac01ceeee14d8c2a5976dd3e9405c4b41358428e6e6952c9e0e5b83589e22cec123d84ffb48
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: roadpal-db
+      username: admin
+      password: admin
+      authentication-database: admin
+      auto-index-creation: true
+      uri: mongodb://admin:admin@localhost/db?authSource=admin
+
+resilience4j:
+  ratelimiter:
+    configs:
+      default:
+        limitForPeriod: 100
+        limitRefreshPeriod: 1s
+        timeoutDuration: 0
+    instances:
+      globalRateLimiter:
+        baseConfig: default
+
+vapid:
+  public:
+   key: BPNBYPHNlkndzue9SQ4MfD6vv4BG7Ddnf5Z2_l2Ovk0pH4ZGRhG6-7tqcaJ40VDhd20xgGu5hx4REyM_IWASapU
+  private:
+   key: oezOy1JNyQfCMz0dfBTb841-MR0oTKB6M2oxct50UuI

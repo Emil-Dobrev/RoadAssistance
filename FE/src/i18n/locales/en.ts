@@ -1,0 +1,72 @@
+export default {
+  common: {
+    appName: 'RoadPal',
+    loading: 'Loading...',
+    error: 'Error',
+    success: 'Success',
+    cancel: 'Cancel',
+    save: 'Save',
+    edit: 'Edit',
+    delete: 'Delete',
+    confirm: 'Confirm',
+    back: 'Back',
+    next: 'Next',
+    submit: 'Submit',
+    required: 'Required field',
+    changeLanguage: 'Смени на български'
+  },
+  auth: {
+    login: 'Login',
+    register: 'Register',
+    logout: 'Logout',
+    email: 'Email',
+    password: 'Password',
+    confirmPassword: 'Confirm Password',
+    forgotPassword: 'Forgot Password?',
+    firstName: 'First Name',
+    lastName: 'Last Name',
+    phone: 'Phone',
+    userType: 'User Type',
+    user: 'User',
+    serviceProvider: 'Service Provider',
+    companyName: 'Company Name',
+    address: 'Address',
+    servicesOffered: 'Services Offered',
+    certification: 'Certification',
+    locationPermission: 'Location Permission',
+    locationRequired: 'Location sharing is required',
+    businessHours: 'Business Hours',
+    serviceArea: 'Service Area',
+    insurance: 'Insurance',
+    responseTime: 'Response Time',
+    paymentMethods: 'Payment Methods',
+    languages: 'Languages Spoken',
+    vehicleTypes: 'Vehicle Types Serviced',
+    yearsInBusiness: 'Years in Business',
+    emergencyContact: 'Emergency Contact'
+  },
+  services: {
+    towing: 'Towing',
+    flatTire: 'Flat Tire',
+    jumpStart: 'Jump Start',
+    fuelDelivery: 'Fuel Delivery',
+    lockout: 'Lockout',
+    other: 'Other'
+  },
+  navigation: {
+    home: 'Home',
+    profile: 'Profile',
+    requests: 'Requests',
+    history: 'History',
+    settings: 'Settings'
+  },
+  profile: {
+    editPhoto: 'Edit Photo',
+    updateProfile: 'Update Profile',
+    businessInfo: 'Business Information',
+    contactInfo: 'Contact Information',
+    ratings: 'Ratings & Reviews',
+    availability: 'Availability',
+    serviceDetails: 'Service Details'
+  }
+}

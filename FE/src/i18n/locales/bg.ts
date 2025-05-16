@@ -1,0 +1,72 @@
+export default {
+  common: {
+    appName: 'РоудПал',
+    loading: 'Зареждане...',
+    error: 'Грешка',
+    success: 'Успех',
+    cancel: 'Отказ',
+    save: 'Запази',
+    edit: 'Редактирай',
+    delete: 'Изтрий',
+    confirm: 'Потвърди',
+    back: 'Назад',
+    next: 'Напред',
+    submit: 'Изпрати',
+    required: 'Задължително поле',
+    changeLanguage: 'Change to English'
+  },
+  auth: {
+    login: 'Вход',
+    register: 'Регистрация',
+    logout: 'Изход',
+    email: 'Имейл',
+    password: 'Парола',
+    confirmPassword: 'Потвърди парола',
+    forgotPassword: 'Забравена парола?',
+    firstName: 'Име',
+    lastName: 'Фамилия',
+    phone: 'Телефон',
+    userType: 'Тип потребител',
+    user: 'Потребител',
+    serviceProvider: 'Доставчик на услуги',
+    companyName: 'Име на фирма',
+    address: 'Адрес',
+    servicesOffered: 'Предлагани услуги',
+    certification: 'Сертификати',
+    locationPermission: 'Разрешение за местоположение',
+    locationRequired: 'Необходимо е да споделите вашето местоположение',
+    businessHours: 'Работно време',
+    serviceArea: 'Обслужван район',
+    insurance: 'Застраховка',
+    responseTime: 'Време за реакция',
+    paymentMethods: 'Начини на плащане',
+    languages: 'Говорими езици',
+    vehicleTypes: 'Обслужвани превозни средства',
+    yearsInBusiness: 'Години в бизнеса',
+    emergencyContact: 'Спешен контакт'
+  },
+  services: {
+    towing: 'Репатрак',
+    flatTire: 'Спукана гума',
+    jumpStart: 'Стартиране на акумулатор',
+    fuelDelivery: 'Доставка на гориво',
+    lockout: 'Отключване',
+    other: 'Други'
+  },
+  navigation: {
+    home: 'Начало',
+    profile: 'Профил',
+    requests: 'Заявки',
+    history: 'История',
+    settings: 'Настройки'
+  },
+  profile: {
+    editPhoto: 'Промени снимка',
+    updateProfile: 'Обнови профил',
+    businessInfo: 'Бизнес информация',
+    contactInfo: 'Контакти',
+    ratings: 'Оценки и отзиви',
+    availability: 'Наличност',
+    serviceDetails: 'Детайли за услугите'
+  }
+}
